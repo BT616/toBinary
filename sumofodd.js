@@ -3,6 +3,10 @@ function rowSumOddNumbers(n) {
  return n* n * n
 }
 
+//or 
+
+Math.pow(n,3)
+
 // 1
 // 3     5
 // 7     9    11
