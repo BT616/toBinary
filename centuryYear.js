@@ -11,3 +11,6 @@ function century(year) {
     }
     return current 
   }
+
+  // return Math.ceil(year/100); 
+  // will work also,ceil() static method always rounds up and returns the smaller integer greater than or equal to a given number.
