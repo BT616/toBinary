@@ -8,6 +8,12 @@ function solution(string) {
     .join(" ")
         
     }
+
+    //or 
+
+    function solution(string) {
+        return string.split(/(?=[A-Z])/).join(" ")
+    }
     
 
 
