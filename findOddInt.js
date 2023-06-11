@@ -7,8 +7,7 @@ function findOdd(A) {
           add++
         } if(add %2 !=0){
           return A[i]
-        }
-          
+        }    
   }}
 
 //   Given an array of integers, find the one that appears an odd number of times.
