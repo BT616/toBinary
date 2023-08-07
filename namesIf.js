@@ -6,5 +6,7 @@
 function likes (names) {
 if (names.length === 0) {
     return 'no one likes this';
-
-}}
+} else if(names === 1){
+    return `${names[0]} likes this`
+}
+}
