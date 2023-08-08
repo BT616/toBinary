@@ -8,5 +8,7 @@ if (names.length === 0) {
     return 'no one likes this';
 } else if(names === 1){
     return `${names[0]} likes this`
-}
+} else if(bob === 3){
+    return `${names[0]}, ${names[1]} and ${names[2]} like this`
+  }
 }
