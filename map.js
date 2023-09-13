@@ -10,3 +10,14 @@
 
 // The second value in the first pair in the array is 0, since the bus is empty in the first bus stop.
 
+var number = function(busStops){
+    // Good Luck!
+    let totalEnter =0;
+    let totalDown = 0;
+    busStops.map((arr)=>{
+      totalEnter += arr[0]
+      totalDown += arr[1]
+      
+    }); 
+    return totalEnter - totalDown 
+  }
