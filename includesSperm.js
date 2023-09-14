@@ -9,3 +9,9 @@ function chromosomeCheck(sperm) {
     return "Congratulations! You're going to have a daughter."
    }
 
+or use 
+
+   return sperm.includes('Y') ?
+   "Congratulations! You're going to have a son." : 
+   "Congratulations! You're going to have a daughter."
+}
