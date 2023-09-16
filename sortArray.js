@@ -5,3 +5,9 @@
 // For example, if this array were passed as an argument:
 
 // ["Telescopes", "Glasses", "Eyes", "Monocles"]
+
+function sortByLength (array) {
+    // Return an array containing the same strings, ordered from shortest to longest
+    
+   
+  };
