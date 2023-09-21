@@ -12,3 +12,15 @@ var max = function(list){
     list.sort(function(a, b){return b - a })
     return list[0];
 }
+
+//or
+
+var min = function(list){
+    
+    return Math.min(...list)
+}
+
+var max = function(list){
+    
+    return Math.max(...list)
+}
